@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El club viejuner</title>
+    <link rel="stylesheet" href="../CSS/club.css">
+    <link rel="shortcut icon" href="../Assets/club.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="../Assets/logo_club.png" alt="El club viejuner" id="logo">
+        <h1>El club viejuner</h1>
+        <h2><a href="./club.html">Club</a></h2>
+        <h2><a href="./policia.html">Policía</a></h2>
+    </header>
+    <main>
+        <h2>Formulario de admisión al club</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Información Personal</legend>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" required placeholder="Tu nombre" minlength="2" maxlength="20" tabindex="1" autofocus> <br>
+                <label for="apellidos">Apellidos: </label>
+                <input type="text" name="apellidos" id="apellidos" required placeholder="Tus apellidos" tabindex="1"> <br>
+                <label for="edad">Edad: </label>
+                <input type="number" name="edad" id="edad" required placeholder="Tu edad" tabindex="1" pattern="[0-9]{1,150}"> <br>
+                <span>Sexo: </span>
+                <label for="hombre">Hombre:</label>
+                <input type="radio" name="genero" id="hombre" value="hombre" tabindex="1">
+                <label for="mujer">Mujer:</label>
+                <input type="radio" name="genero" id="mujer" value="mujer" tabindex="1"> <br>
+                <span>¿Me siento viejuner? </span>
+                <label for="si">Sí:</label>
+                <input type="checkbox" name="me_siento_viejuner" id="si" value="Si" tabindex="1"> <br>
+                <label for="info">Escribe algo sobre tí en menos de 250 caracteres:</label> 
+                <textarea name="info" id="info" cols="50" rows="5" maxlength="250">Información personal</textarea>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Información de contacto</legend>
+                <label for="correo">Correo electrónico: </label>
+                <input type="email" name="correo" id="correo" required placeholder="Tu email" tabindex="1"> <br>
+                <label for="telefono">Teléfono: </label>
+                <input type="tel" name="telefono" id="telefono" required placeholder="Tu teléfono" minlength="2"> <br>
+            </fieldset>
+            <br><br>
+            <input type="reset" value="Reset"> <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>

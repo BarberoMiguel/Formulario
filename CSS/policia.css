@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #4554D3;
+    position: fixed;
+    background-attachment: fixed;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+    margin: -140px 0 0 0;
+}
+
+header h1 {
+    color: white;
+    margin: 40px 10px;
+    height: 120px;
+    width: 120px;
+    white-space: nowrap;
+}
+
+a {
+    color: white;
+    white-space: nowrap;
+}
+
+header h2 {
+    margin: 50px 10px;
+}
+
+a[href*="club"] {
+    margin: 50px 0 0 350px;
+}
+
+#logo {
+    height: 100px;
+    margin: 10px;
+}
+
+body {
+    background-color: #788BFF;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    margin: 140px 40px;
+    background-color: #4C5CE8;
+    width: 93%;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+fieldset label,span {
+    margin: 10px 20px;
+}
+
+form > input {
+    margin: 10px 20px;
+}
+

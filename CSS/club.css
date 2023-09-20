@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #C23837;
+    position: fixed;
+    background-attachment: fixed;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+    margin: -140px 0 0 0;
+}
+
+header h1 {
+    color: white;
+    margin: 40px 10px;
+    height: 120px;
+    width: 120px;
+    white-space: nowrap;
+}
+
+a {
+    color: white;
+    white-space: nowrap;
+}
+
+header h2 {
+    margin: 50px 10px;
+}
+
+a[href*="club"] {
+    margin: 50px 0 0 150px;
+}
+
+#logo {
+    height: 100px;
+    margin: 10px;
+}
+
+body {
+    background-color: #E8985E;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    margin: 140px 40px;
+    background-color: #D5684B;
+    width: 93%;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+fieldset label,span {
+    margin: 10px 20px;
+}
+
+#nombre {
+    width: 200px;
+}
+
+#apellidos {
+    width: 190px;
+}
+
+#edad {
+    width: 220px;
+}
+
+#telefono {
+    width: 232px;
+}
+
+textarea {
+    margin-top: -140px;
+}
+
+form > input {
+    margin: 10px 20px;
+}
+
